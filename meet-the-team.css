@@ -1,0 +1,559 @@
+body {
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+     height: 100vh;
+     width: 100vw;
+     
+   }
+
+   .logo{
+    margin-right: 25px;
+    border: 2px solid blue;
+    height: 50px;
+    width: 150px;
+    
+   }
+   .offer-header{
+     font-size: 15px;
+     font-family: "Geist", serif;
+     font-weight: 500;
+     font-weight: bold;
+     margin-top: 15px;
+   }
+
+   .offers{
+     font-size: 12px;
+     font-family: "Geist", serif;
+     font-weight: 500;
+     border: 1px solid red;
+     margin-left: 20px;   
+   }
+
+   .offerings{
+     margin-top: 7px;
+   }
+   .copyright{
+     font-size: 12px;
+     font-family: "Geist", serif;
+     font-weight: bold;
+     color: #333;
+     margin-left: 7%;
+     margin-right:7%;
+   }
+
+   .footer{
+     text-align: left;
+     margin-top: 25%;
+     margin-left: 7%;
+     margin-right:7%;
+   }
+
+   .our-story{
+     margin-top: 20px;
+     font-size: 35px;
+     font-weight: bold;
+     font-family: "Geist", serif;
+     margin-bottom: 20px;
+   }
+
+   .our-story-text{
+     line-height: 1.8rem;
+     font-size: 20px;
+     
+   }
+
+   .navbar {
+     display: flex;
+     height: 55px;
+     align-items: center;
+     background-color: #ffffff;
+     border: 2px solid red; /* Border for adjustments */
+     position: fixed; 
+     top:0;
+     width: 100%;
+   }
+   
+
+   .nav-links0 {
+    width: 10%;
+    margin-left: 10px;
+    height: 100%;
+    border: 2px solid blue;
+    align-content: center;
+    justify-content: center;
+    font-size: 110%;
+    font-family: "Geist", serif;
+    cursor: pointer;
+
+  }
+
+
+   .nav-links1 {
+     width: 150px;
+     margin-left: 10px;
+     height: 100%;
+     border: 2px solid blue;
+     align-content: center;
+     justify-content: center;
+     font-size: 110%;
+     font-family: "Geist", serif;
+     cursor: pointer;
+
+   }
+   
+   .nav-links1:hover, .nav-links2:hover{
+     transition: color 0.3s ease;
+     color: #ec53cb;
+     cursor:pointer;
+   }
+   .nav-links2 {
+     font-size: 110%;
+     font-family: "Geist", serif;
+     width: 200px;
+     align-content: center;
+     justify-content: center;
+     margin-left: 10px;
+     height: 100%;
+     border: 2px solid pink;
+   }
+
+  .photo-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 7%;
+    margin-right: 7%;
+    height: 900px;
+    margin-top: 100px;
+    
+    
+  }
+  .column{
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    width: calc((100% - 14%)/3);
+    text-align: center;
+    border-radius: 50px;
+    margin-right: 1%;
+    margin-left: 1%;
+    border: 1px solid rgb(193, 189, 192);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+    font-family: "Geist", serif;
+    padding: 1rem !important;
+    height: 100%;
+    border: 2px solid rgb(39, 142, 97);
+    flex-grow: 1;
+    
+  }
+  img {
+    width:240px;
+    border-radius: 100%;
+    
+  }
+  .name-plate{
+    border: 2px solid pink;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    color:#ec53cb;
+    font-family: "Geist", serif;
+
+  }
+
+  .photos{
+    border: 2px solid rgb(85, 220, 17);
+    height:240px;
+    margin-bottom: 20px;
+  
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    margin-top: 50px;
+    
+
+  }
+  .photo{
+    border: 2px solid rgb(228, 53, 9);
+    max-height: 600px;
+    line-height: 27px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: "Geist", serif;
+
+
+
+  }
+  .linkedin{
+    border: 2px solid rgb(204, 81, 213);
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: 20px;
+    display:flex;
+
+  }
+
+   .hero-section {
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     background-color: #ffffff;
+     margin-left: 7%;
+     margin-right:7%;
+     margin-top: 100px;
+     border: 2px solid blue; /* Border for adjustments */
+   }
+   
+   .hero-section button {
+     background-color: #0052cc;
+     color: white;
+     border: none;
+     padding: 10px 20px;
+     cursor: pointer;
+     border-radius: 5px;
+   }
+   
+   
+   
+   
+   .our-story-container {
+     margin-top: 50px;
+     padding: 20px;
+     background-color: #ffffff;
+     border: 2px solid purple; /* Border for adjustments */
+   }
+
+   .footer {
+     padding: 20px;
+     background-color: #ffffff;
+     border: 2px solid yellow; /* Border for adjustments */
+   }
+   .subby {
+     display: flex;
+     flex-direction: row;
+     border: 2px solid yellow;
+     margin-bottom: 38px;
+     font-size: 70;
+   }
+
+   .title{
+     border: 2px solid yellow;
+   }
+
+   .sub-title{
+     border: 2px solid red;
+     width: 50%;
+     font-size: 300%;
+     text-align: right;
+     font-family: "Geist", serif;
+     margin-right: 20px
+   }
+
+   .sub-title2{
+     border: 2px solid rgb(38, 38, 119);
+     width: 50%;
+     font-size: 300%;
+     text-align: left;
+     font-family: "Geist", serif;
+     margin-left: -10px;
+     font-weight: bold;
+     color: #ec53cb;
+
+   }
+
+   .title{
+     font-size: 300%;
+     font-family: "Geist", serif;
+   }
+   .get-started{
+     color:#ffffff;
+     font-family: "Geist", serif;
+     font-weight: bold;
+     font-size: 100%;
+     background-color: #000000;
+     width: 125px;
+     height: 35px;
+     justify-content: center;
+     text-align: center;
+     align-items: center;
+     border-radius: 30px;
+     margin-left: 42%;
+     margin-right: 42%;
+     
+   }
+   .get-started:hover{
+     transition: background-color 0.3s ease;
+     background-color: #ec53cb;
+   }
+   
+   .companion-container{
+     height: 40%;
+     margin-left: 7%;
+     margin-right:7%;
+   }
+
+   .our-story-container{
+     height: 40%;
+     margin-left: 7%;
+     margin-right:7%;
+   }
+   .content-container1{
+    border: 2px solid rgb(216, 31, 216);
+    
+    margin-left: 7%;
+    margin-right: 7%
+    
+   }
+   .blurb{
+     display: flex;
+     margin-top: 3%;
+     color: #333;
+     border: 2px solid purple;
+     margin-left: 7%;
+     margin-right:7%;
+     font-size: 1.2rem;
+     font-weight: bold;
+     font-family: Roboto, Arial, Helvetica, sans-serif;
+     line-height: 25px;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+   }
+
+   .companion-container {
+     margin-top:2%;
+     display: flex;
+     text-align: center;
+     line-height: 25px;
+     font-size: 17px;
+     font-family: Roboto, Arial, Helvetica, sans-serif;
+     color: #666666;
+     background-color: #ffffff;
+     border: 2px solid green; /* Border for adjustments */
+   }
+
+   .left-companion-container{
+     width: 45%;
+     border: 2px solid purple;
+
+   }
+   .right-container{
+     width: 55%;
+     border: 2px solid rgb(145, 45, 145);
+   }
+   .header{
+     border: 2px solid rgb(145, 45, 145);
+     height: 37px;
+     font-size: 25px;
+     font-family: "Geist", serif;
+     font-weight: bold;
+     width: 100%;
+   }
+   .paragraph{
+     border: 2px solid rgb(27, 117, 72);
+     height: 100px;
+     font-size: 19.5px;
+     font-family: "Geist", serif;
+     width: 330px;
+     color: #333;
+     line-height: 1.5rem;
+     margin-bottom: 10px;
+   }
+   .try-it{
+     width: 100px;
+     font-family: "Geist", serif;
+     font-size: 14px;
+     font-weight: bold;
+     color: #ffffff;
+     background-color: #000000;
+     border-radius: 25px;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     height: 27px;
+     border: 2px solid rgb(159, 69, 41);
+   }
+
+   .try-it:hover{
+     transition: background-color 0.3s ease;
+     background-color: #ec53cb;
+   }
+   .left-logo{
+     border: 2px solid purple;
+     height: 30px;
+   }
+   
+   /* Dropdown Menu Styling */
+/* Dropdown Menu Styling */
+/* Dropdown Menu Styling */
+#productDropdown {
+     display: none; /* Hidden initially */
+     position: absolute; /* Position it relative to the navbar */
+     top: 55px; /* Adjust the position to appear below the navbar */
+     left: 0;
+     width: 200px; /* Set the width of the dropdown */
+     background-color: rgba(255, 255, 255, 0.9);
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+     border-radius: 8px;
+     z-index: 9999; /* Ensure the dropdown is on top */
+   }
+   
+   /* Dropdown Content */
+   .dropdown-content {
+     display: flex;
+     flex-direction: column;
+
+
+   }
+   
+   .dropdown-content a {
+     padding: 10px;
+     color: black;
+     text-decoration: none;
+     font-size: 16px;
+     border-bottom: 1px solid #ccc;
+   }
+   
+   .dropdown-content a:hover {
+     background-color: #f0f0f0;
+     color: #333;
+   }
+
+   /* Modal overlay */
+.modal {
+     display: none; /* Initially hidden */
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+     z-index: 1000; /* Above everything else */
+     justify-content: center;
+     align-items: center;
+   }
+   
+   /* Modal content box */
+   .modal-content {
+     background-color: #fff;
+     padding: 20px;
+     border-radius: 8px;
+     text-align: center;
+     max-width: 400px;
+     margin: auto;
+     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+   }
+   
+   /* Close button */
+   .modal-content .close {
+     position: absolute;
+     top: 10px;
+     right: 15px;
+     font-size: 20px;
+     font-weight: bold;
+     cursor: pointer;
+   }
+   
+   #products {
+     position: relative;
+     z-index: 10;
+     cursor: pointer; /* Changes cursor to indicate it's clickable */
+   }
+
+   /* Popup box initially hidden */
+/* Popup box styling */
+.popup-box {
+     opacity: 0; /* Initially hidden */
+     visibility: hidden; /* Prevent interaction when hidden */
+     position: absolute; /* Positioned relative to the "Products" tab */
+     top: 120%; /* Adjust this value to move the popup further down or up */
+     left: 7%; /* Align with the left edge of the tab */
+     width: 400px;
+
+      /* Adjust width */
+     background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+     border: 1px solid #ccc; /* Optional border */
+     border-radius: 8px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow */
+     z-index: 999; /* Ensure it appears above other elements */
+     padding: 10px;
+     backdrop-filter: blur(4px);
+     transition: opacity 0.4s ease-in-out 0.1s, visibility 0.4s ease-in-out; /* Adjust speed and delay */
+   }
+   
+   /* Popup content styling */
+   .popup-content a {
+     display: block;
+     padding: 8px 10px;
+     color: #333;
+     text-decoration: none;
+     font-size: 16px;
+     border-bottom: 1px solid #eaeaea; /* Optional divider between items */
+   }
+   
+   .popup-content a:hover {
+     background-color: #f5f5f5;
+     color: #000;
+   }
+   
+   /* When hovering over the Products tab or popup box, make it visible */
+   .nav-links1:hover +
+   
+     #popupBox,
+   #popupBox:hover {
+     opacity: 1;
+     visibility: visible;
+   }
+   
+   .product{
+     margin-top: 40px;
+     margin-left: 25px;
+     font-size: 17px;
+     font-family: "Geist", serif;
+     color: #101214;
+     margin-bottom: 24px;
+     border: 2px solid rgb(159, 69, 41);
+     width: 115px;
+
+   }
+
+   .product-container{
+     display:flex;
+     margin-left: 25px;
+     margin-top: 20px;
+     border: 2px solid rgb(143, 182, 75);
+     flex-direction: row;
+     width: 215px;
+     margin-bottom: 50px;
+   }
+   .production-header-description{
+     display: flex;
+     flex-direction: column;
+     margin-left: 7px;
+     color: #101214;
+     
+   }
+
+   .logo-container{
+     border: 2px solid rgb(121, 28, 71);
+     width: 50px;
+     height: 50px;
+   }
+
+   .product-header{
+     border: 2px solid rgb(39, 47, 121);
+     font-family: "Geist", serif;
+     font-weight:bold;
+     font-size: 19px;
+
+   }
+
+   .product-description{
+     border: 2px solid rgb(60, 211, 65);
+     font-family: "Geist", serif;
+     margin-top: 5px;
+     font-size: 16px;
+   }

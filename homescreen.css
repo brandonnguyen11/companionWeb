@@ -1,447 +1,520 @@
 body {
-     font-family: Arial, sans-serif;
-     margin: 0;
-     padding: 0;
-     height: 100vh;
-     width: 100vw;
-     -webkit-font-smoothing: antialiased;
-   }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  -webkit-font-smoothing: antialiased;
+}
 
-   .logo{
-    margin-right: 25px;
-    border: 2px solid blue;
-    height: 50px;
-    width: 150px;
-    
-   }
-   .offer-header{
-     font-size: 15px;
-     font-family: "Geist", serif;
-     font-weight: 500; 
-     font-weight: bold;
-     margin-top: 15px;
-   }
+.logo{
+ margin-right: 25px;
+ border: 2px solid blue;
+ height: 50px;
+ width: 150px;
+ 
+}
+.offer-header{
+  font-size: .90rem;
+  color: #2c2c2c;
+  font-family: "Geist", serif;
+  font-weight: 600;
+  margin-top: 15px;
+}
 
-   .offers{
-     font-size: 12px;
-     font-family: "Geist", serif;
-     font-weight: 500;
-     border: 1px solid red;
-     margin-left: 20px;   
-   }
+.offers{
+  font-size: .8rem;
+  font-family: "Geist", serif;
+  color: #484848;
+  font-weight: 500;
+  margin-top: .3rem;
+  border: 1px solid red;
+  margin-left: 20px;   
+}
 
-   .offerings{
-     margin-top: 7px;
-   }
-   .copyright{
-     font-size: 12px;
-     font-family: "Geist", serif;
-     font-weight: bold;
-     color: #333;
-     margin-left: 7%;
-     margin-right:7%;
-   }
+.offerings{
+  margin-top: 7px;
+}
 
-   .footer{
-     text-align: left;
-     margin-top: 25%;
-     margin-left: 7%;
-     margin-right:7%;
-   }
-
-   .our-story{
-     margin-top: 20px;
-     font-size: 35px;
-     font-weight: bold;
-     font-family: "Geist", serif;
-     margin-bottom: 20px;
-   }
-
-   .our-story-text{
-     line-height: 1.8rem;
-     font-size: 20px;
-     
-   }
-
-   .navbar {
-     display: flex;
-     height: 55px;
-     align-items: center;
-     background-color: #ffffff;
-     border: 2px solid red; /* Border for adjustments */
-     position: fixed; 
-     top:0;
-     width: 100%;
-   }
-   
-   .nav-links1 {
-     width: 150px;
-     margin-left: 10px;
-     height: 100%;
-     border: 2px solid blue;
-     align-content: center;
-     justify-content: center;
-     font-size: 110%;
-     font-family: "Geist", serif;
-
-   }
+.copyright{
+  font-size: .9rem;
+  font-family: "Geist", serif;
+  font-weight: 500;
+  color: #2c2c2c;
+  
+}
 
 
 
-   .nav-links1:hover, .nav-links2:hover{
-     transition: color 0.3s ease;
-     color: #ec53cb;
-     cursor: pointer;
-   }
-   .nav-links2 {
-     font-size: 110%;
-     font-family: "Geist", serif;
-     width: 200px;
-     align-content: center;
-     justify-content: center;
-     margin-left: 10px;
-     height: 100%;
-     border: 2px solid pink;
-   }
+.our-story{
+  margin-top: 20px;
+  font-size: 2.75rem;
+  font-weight: 600;
+  font-family: "Geist", serif;
+  color: #2c2c2c;
+  margin-bottom: 2.75rem;
+}
 
-   .hero-section {
-     text-align: center;
-     justify-content: center;
-     align-items: center;
-     background-color: #ffffff;
-     margin-left: 7%;
-     margin-right:7%;
-     margin-top: 100px;
-     border: 2px solid blue; /* Border for adjustments */
-   }
-   
-   .hero-section button {
-     background-color: #0052cc;
-     color: white;
-     border: none;
-     padding: 10px 20px;
-     cursor: pointer;
-     border-radius: 5px;
-   }
-   
-   .companion-container {
-     display: flex;
-     background-color: #ffffff;
-     border: 2px solid green; /* Border for adjustments */
-   }
-   
-   
-   .our-story-container {
-     margin-top: 50px;
-     padding: 20px;
-     background-color: #ffffff;
-     border: 2px solid purple; /* Border for adjustments */
-   }
+.our-story-text{
+  line-height: 1.8rem;
+  font-size: 1.3rem;
+  color: #484848;
+  font-family: "Geist", serif;
+  font-weight: 400;
+  
+}
 
-   .footer {
-     padding: 20px;
-     background-color: #ffffff;
-     border: 2px solid yellow; /* Border for adjustments */
-   }
-   .subby {
-     display: flex;
-     flex-direction: row;
-     border: 2px solid yellow;
-     margin-bottom: 38px;
-     font-size: 70;
-   }
+.navbar {
+  display: flex;
+  height: 55px;
+  align-items: center;
+  background-color: #ffffff;
+  border: 2px solid red; /* Border for adjustments */
+  position: fixed; 
+  top:0;
+  width: 100%;
+}
 
-   .title{
-     border: 2px solid yellow;
-   }
+.nav-links1 {
+  width: 150px;
+  margin-left: 10px;
+  height: 100%;
+  border: 2px solid blue;
+  align-content: center;
+  justify-content: center;
+  font-size: 110%;
+  font-family: "Geist", serif;
 
-   .sub-title{
-     border: 2px solid red;
-     width: 50%;
-     font-size: 300%;
-     text-align: right;
-     font-family: "Geist", serif;
-   }
+}
 
-   .sub-title2{
-     border: 2px solid rgb(38, 38, 119);
-     width: 50%;
-     font-size: 300%;
-     text-align: left;
-     font-family: "Geist", serif;
-     margin-left: 1cqmin;
-     font-weight: bold;
-     color: #ec53cb;
 
-   }
 
-   .title{
-     font-size: 300%;
-     font-family: "Geist", serif;
-   }
-   .get-started{
-     color:#ffffff;
-     font-family: "Geist", serif;
-     font-weight: bold;
-     font-size: 100%;
-     background-color: #000000;
-     width: 125px;
-     height: 35px;
-     border-radius: 30px;
-     display: grid;
-     align-items: center;
-     
-     
-   }
-   .get-started:hover{
-     transition: background-color 0.3s ease;
-     background-color: #ec53cb;
-   }
-   
-   .companion-container{
-     margin-top: 10%;
-     height: 40%;
-     margin-left: 7%;
-     margin-right:7%;
-   }
+.nav-links1:hover, .nav-links2:hover{
+  transition: color 0.3s ease;
+  color: #ec53cb;
+  cursor: pointer;
+}
+.nav-links2 {
+  font-size: 110%;
+  font-family: "Geist", serif;
+  width: 200px;
+  align-content: center;
+  justify-content: left;
+  margin-left: 10px;
+  height: 100%;
+  border: 2px solid pink;
+  display: flex;
+  align-items: center;
+  
+}
 
-   .our-story-container{
-     height: 40%;
-     margin-left: 7%;
-     margin-right:7%;
-   }
+.hero-section {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  margin-left: 7%;
+  margin-right:7%;
+  margin-top: 10rem;
+  text-align: center;
+  border: 2px solid blue; /* Border for adjustments */
+}
 
-   .blurb{
-     margin-top: 5%;
-     margin-bottom: -30px;
-     height: 5%;
-     border: 2px solid purple;
-     margin-left: 7%;
-     margin-right:7%;
-     font-size: 30px;
-     font-weight: bold;
-   }
+.hero-section button {
+  background-color: #0052cc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
 
-   .left-companion-container{
-     width: 45%;
-     border: 2px solid purple;
+.companion-container {
+  display: flex;
+  background-color: #ffffff;
+  border: 2px solid green; /* Border for adjustments */
+  height: 370px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-left: 7%;
+  margin-right:7%;
+}
 
-   }
-   .right-container{
-     width: 55%;
-     border: 2px solid rgb(145, 45, 145);
-   }
-   .header{
-     border: 2px solid rgb(145, 45, 145);
-     height: 37px;
-     font-size: 25px;
-     font-family: 'Inter',sans-serif;
-     font-weight: bold;
-     width: 100%;
-   }
-   .paragraph{
-     border: 2px solid rgb(27, 117, 72);
-     height: 100px;
-     font-size: 19.5px;
-     font-family: 'Inter',sans-serif;
-     width: 330px;
-     color: #333;
-     line-height: 1.5rem;
-     margin-bottom: 10px;
-   }
-   .try-it{
-    display: grid;
-    align-items: center;
-     width: 100px;
-     font-family: "Geist", serif;
-     font-size: 14px;
-     font-weight: bold;
-     color: #ffffff;
-     background-color: #000000;
-     border-radius: 25px;
-     align-items: center;
-     justify-content: center;
-     text-align: center;
-     height: 27px;
-     border: 2px solid rgb(159, 69, 41);
-   }
+.story-mission{
+  margin-left: 7%; 
+  margin-right: 7%;
+  border: 2px solid#0052cc;
+  height: 50rem;
+  display: flex;
+  width: 86%;
+  display:flex;
+  align-items: strech;
+  flex-direction: row;
 
-   .try-it:hover{
-     transition: background-color 0.3s ease;
-     background-color: #ec53cb;
-   }
-   .left-logo{
-     border: 2px solid purple;
-     height: 30px;
-   }
-   
-   /* Dropdown Menu Styling */
+}
+
+.our-story-container {
+  margin-top: 3rem;
+  min-height: 200px;
+  
+  width: 43%;
+  padding: 1rem;
+  background-color: #ffffff;
+  border: 2px solid purple; /* Border for adjustments */
+  flex-grow: 1;
+}
+
+.footer {
+  padding: 20px;
+  background-color: #ffffff;
+  border: 2px solid yellow; /* Border for adjustments */
+  color: #2c2c2c;
+  text-align: right;
+  margin-top: 25%;
+  margin-left: 7%;
+  margin-right:7%;
+  
+}
+.subby {
+  display: flex;
+  align-items: baseline; /* Aligns texts at the bottom */
+  justify-content: center; /* Centers content horizontally */
+  gap: 8px; /* Adjusts spacing between elements */
+  margin: 10px auto; /* Centers the whole div */
+  border: 2px solid rgb(79, 111, 178);
+  width: 440px;
+  height: 60px;
+  max-width: 100%; /* Prevents overflow on small screens */
+}
+
+.sub-title {
+  font-size: 40px; /* Adjust as needed */
+  font-weight: 500;
+  font-family: "Geist", sans-serif;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.sub-title2 {
+  font-size: 40px; /* Match height to sub-title */
+  font-weight: 800;
+  font-family: "Playwrite IT Trad", sans-serif; /* Keep your chosen font */
+  line-height: 1;
+  white-space: nowrap;
+  color: #ec53cb; /* Adjust color if needed */
+}
+
+
+.title{
+  font-size: 300%;
+  border: 2px solid yellow;
+  font-family: "Geist", serif;
+  font-weight: 600;
+}
+.get-started{
+  color:#ffffff;
+  font-family: "Geist", serif;
+  font-weight: 600;
+  font-size: 100%;
+  background-color: #484848;
+  width: 125px;
+  height: 35px;
+  border-radius: 30px;
+  margin-top: 30px;
+  display: grid;
+  align-items: center;
+  justify-self: center;
+  
+  
+  
+}
+.get-started:hover{
+  transition: background-color 0.3s ease;
+  background-color: #ec53cb;
+}
+
+
+
+.our-story-container{
+  height: 17rem;
+  width: 50%;
+}
+
+.mission-container{
+  border: 2px solid #ec53cb;
+  
+  width: 50%;
+  margin-top: 25rem;
+  padding: 1rem;
+  height: auto;
+  min-height: auto; /* Let it grow */
+  max-height: none; /* No artificial limits */
+  flex-grow: 1;
+  overflow-y: visible;
+
+
+}
+
+.mission{
+  margin-top: 20px;
+  font-size: 2.75rem;
+  font-weight: 600;
+  font-family: "Geist", serif;
+  color: #2c2c2c;
+  margin-bottom: 2.75rem;
+
+}
+
+.mission-text{
+  line-height: 1.8rem;
+  font-size: 1.3rem;
+  color: #484848;
+  font-family: "Geist", serif;
+  font-weight: 400;
+  word-wrap: break-word;
+  display:flex;
+
+}
+
+.blurb{
+  margin-top: 5%;
+  height: 5%;
+  border: 2px solid purple;
+  margin-left: 7%;
+  margin-right:7%;
+  font-size: 32px;
+  font-weight: bold;
+  color: #2c2c2c;
+  font-family: "Geist", serif;
+  
+}
+
+.left-companion-container{
+  width: 45%;
+  border: 2px solid purple;
+  height: 100%;
+
+}
+.right-container{
+  width: 55%;
+  border: 2px solid rgb(145, 45, 145);
+  height: 100%;
+}
+.header{
+  border: 2px solid rgb(145, 45, 145);
+  height: 37px;
+  font-size: 25px;
+  color: #2c2c2c;
+  font-family: 'Inter',sans-serif;
+  font-weight: bold;
+  width: 100%;
+}
+.paragraph{
+  border: 2px solid rgb(27, 117, 72);
+  height: 100px;
+  font-size: 1.2rem;
+  font-family: 'Geist',sans-serif;
+  width: 80%;
+  color: #484848;
+  line-height: 1.5rem;
+  margin-bottom: 10px;
+  display: flex;
+}
+.try-it{
+ display: grid;
+ align-items: center;
+  width: 100px;
+  font-family: "Geist", serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #484848;
+  border-radius: 25px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 27px;
+  border: 2px solid rgb(159, 69, 41);
+  margin-left: 10px;
+}
+
+.try-it:hover{
+  transition: background-color 0.3s ease;
+  background-color: #ec53cb;
+  cursor: pointer;
+}
+.left-logo{
+  border: 2px solid purple;
+  height: 30px;
+}
+
+/* Dropdown Menu Styling */
 /* Dropdown Menu Styling */
 /* Dropdown Menu Styling */
 #productDropdown {
-     display: none; /* Hidden initially */
-     position: absolute; /* Position it relative to the navbar */
-     top: 55px; /* Adjust the position to appear below the navbar */
-     left: 0;
-     width: 200px; /* Set the width of the dropdown */
-     background-color: rgba(255, 255, 255, 0.9);
-     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-     border-radius: 8px;
-     z-index: 9999; /* Ensure the dropdown is on top */
-   }
-   
-   /* Dropdown Content */
-   .dropdown-content {
-     display: flex;
-     flex-direction: column;
-   }
-   
-   .dropdown-content a {
-     padding: 10px;
-     color: black;
-     text-decoration: none;
-     font-size: 16px;
-     border-bottom: 1px solid #ccc;
-   }
-   
-   .dropdown-content a:hover {
-     background-color: #f0f0f0;
-     color: #333;
-   }
+  display: none; /* Hidden initially */
+  position: absolute; /* Position it relative to the navbar */
+  top: 55px; /* Adjust the position to appear below the navbar */
+  left: 0;
+  width: 200px; /* Set the width of the dropdown */
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  z-index: 9999; /* Ensure the dropdown is on top */
+}
 
-   /* Modal overlay */
+/* Dropdown Content */
+.dropdown-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-content a {
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  border-bottom: 1px solid #ccc;
+}
+
+.dropdown-content a:hover {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Modal overlay */
 .modal {
-     display: none; /* Initially hidden */
-     position: fixed;
-     top: 0;
-     left: 0;
-     width: 100%;
-     height: 100%;
-     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-     z-index: 1000; /* Above everything else */
-     justify-content: center;
-     align-items: center;
-   }
-   
-   /* Modal content box */
-   .modal-content {
-     background-color: #fff;
-     padding: 20px;
-     border-radius: 8px;
-     text-align: center;
-     max-width: 400px;
-     margin: auto;
-     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-   }
-   
-   /* Close button */
-   .modal-content .close {
-     position: absolute;
-     top: 10px;
-     right: 15px;
-     font-size: 20px;
-     font-weight: bold;
-     cursor: pointer;
-   }
-   
-   #products {
-     position: relative;
-     z-index: 10;
-     cursor: pointer; /* Changes cursor to indicate it's clickable */
-   }
+  display: none; /* Initially hidden */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  z-index: 1000; /* Above everything else */
+  justify-content: center;
+  align-items: center;
+}
 
-   /* Popup box initially hidden */
+/* Modal content box */
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 400px;
+  margin: auto;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Close button */
+.modal-content .close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#products {
+  position: relative;
+  z-index: 10;
+  cursor: pointer; /* Changes cursor to indicate it's clickable */
+}
+
+/* Popup box initially hidden */
 /* Popup box styling */
 .popup-box {
-     opacity: 0; /* Initially hidden */
-     visibility: hidden; /* Prevent interaction when hidden */
-     position: absolute; /* Positioned relative to the "Products" tab */
-     top: 120%; /* Adjust this value to move the popup further down or up */
-     left: 7%; /* Align with the left edge of the tab */
-     width: 85%;
-     right:7%;
+  opacity: 0; /* Initially hidden */
+  visibility: hidden; /* Prevent interaction when hidden */
+  position: absolute; /* Positioned relative to the "Products" tab */
+  top: 120%; /* Adjust this value to move the popup further down or up */
+  left: 7%; /* Align with the left edge of the tab */
+  width: 85.39%;
+  right:7%;
 
-      /* Adjust width */
-     background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
-     border: 1px solid #ccc; /* Optional border */
-     border-radius: 8px;
-     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow */
-     z-index: 999; /* Ensure it appears above other elements */
-     padding: 10px;
-     backdrop-filter: blur(4px);
-     transition: opacity 0.4s ease-in-out 0.1s, visibility 0.4s ease-in-out; /* Adjust speed and delay */
-   }
-   
-   /* Popup content styling */
-   .popup-content a {
-     display: block;
-     padding: 8px 10px;
-     color: #333;
-     text-decoration: none;
-     font-size: 16px;
-     border-bottom: 1px solid #eaeaea; /* Optional divider between items */
-   }
-   
-   .popup-content a:hover {
-     background-color: #f5f5f5;
-     color: #000;
-   }
-   
-   /* When hovering over the Products tab or popup box, make it visible */
-   .nav-links1:hover +
-   
-     #popupBox,
-   #popupBox:hover {
-     opacity: 1;
-     visibility: visible;
-   }
-   
-   .product{
-     margin-top: 40px;
-     margin-left: 25px;
-     font-size: 17px;
-     font-family: "Geist", serif;
-     color: #101214;
-     margin-bottom: 24px;
-     border: 2px solid rgb(159, 69, 41);
-     width: 115px;
+   /* Adjust width */
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+  border: 1px solid #ccc; /* Optional border */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow */
+  z-index: 999; /* Ensure it appears above other elements */
+  padding: 10px;
+  backdrop-filter: blur(4px);
+  transition: opacity 0.4s ease-in-out 0.1s, visibility 0.4s ease-in-out; /* Adjust speed and delay */
+}
 
-   }
+/* Popup content styling */
+.popup-content a {
+  display: block;
+  padding: 8px 10px;
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+  border-bottom: 1px solid #eaeaea; /* Optional divider between items */
+}
 
-   .product-container{
-     display:flex;
-     margin-left: 25px;
-     margin-top: 20px;
-     border: 2px solid rgb(143, 182, 75);
-     flex-direction: row;
-     width: 215px;
-     margin-bottom: 50px;
-   }
-   .production-header-description{
-     display: flex;
-     flex-direction: column;
-     margin-left: 7px;
-     color: #101214;
-     
-   }
+.popup-content a:hover {
+  background-color: #f5f5f5;
+  color: #000;
+}
 
-   .logo-container{
-     border: 2px solid rgb(121, 28, 71);
-     width: 50px;
-     height: 50px;
-   }
+/* When hovering over the Products tab or popup box, make it visible */
+.nav-links1:hover +
 
-   .product-header{
-     border: 2px solid rgb(39, 47, 121);
-     font-family: 'Inter', san-serif;
-     font-weight:bold;
-     font-size: 19px;
+  #popupBox,
+#popupBox:hover {
+  opacity: 1;
+  visibility: visible;
+}
 
-   }
+.product{
+  margin-top: 40px;
+  margin-left: 25px;
+  font-size: 17px;
+  font-family: "Geist", serif;
+  color: #101214;
+  margin-bottom: 24px;
+  border: 2px solid rgb(159, 69, 41);
+  width: 115px;
 
-   .product-description{
-     border: 2px solid rgb(60, 211, 65);
-     font-family: 'Inter', san-serif;
-     margin-top: 5px;
-     font-size: 16px;
-   }
+}
+
+.product-container{
+  display:flex;
+  margin-left: 25px;
+  margin-top: 20px;
+  border: 2px solid rgb(143, 182, 75);
+  flex-direction: row;
+  width: 215px;
+  margin-bottom: 50px;
+}
+.production-header-description{
+  display: flex;
+  flex-direction: column;
+  margin-left: 7px;
+  color: #101214;
+  
+}
+
+.logo-container{
+  border: 2px solid rgb(121, 28, 71);
+  width: 50px;
+  height: 50px;
+}
+
+.product-header{
+  border: 2px solid rgb(39, 47, 121);
+  font-family: 'Inter', san-serif;
+  font-weight:bold;
+  font-size: 19px;
+
+}
+
+.product-description{
+  border: 2px solid rgb(60, 211, 65);
+  font-family: 'Inter', san-serif;
+  margin-top: 5px;
+  font-size: 16px;
+}

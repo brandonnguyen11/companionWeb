@@ -5,6 +5,8 @@ body {
   height: 100vh;
   width: 100vw;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  
 }
 
 .logo{
@@ -12,6 +14,7 @@ body {
  border: 2px solid blue;
  height: 50px;
  width: 150px;
+ flex-shrink:0;
  
 }
 .offer-header{
@@ -52,7 +55,8 @@ body {
   font-weight: 600;
   font-family: "Geist", serif;
   color: #2c2c2c;
-  margin-bottom: 2.75rem;
+  margin-bottom: 1rem;
+  
 }
 
 .our-story-text{
@@ -61,6 +65,8 @@ body {
   color: #484848;
   font-family: "Geist", serif;
   font-weight: 400;
+  display:flex;
+  flex-direction: column;
   
 }
 
@@ -133,35 +139,52 @@ body {
   display: flex;
   background-color: #ffffff;
   border: 2px solid green; /* Border for adjustments */
-  height: 370px;
+  height: auto;
   margin-bottom: 50px;
   margin-top: 50px;
   margin-left: 7%;
   margin-right:7%;
+  flex-wrap: wrap;
 }
 
 .story-mission{
   margin-left: 7%; 
   margin-right: 7%;
   border: 2px solid#0052cc;
-  height: 50rem;
+  height: auto;
   display: flex;
   width: 86%;
   display:flex;
-  align-items: strech;
+  align-items: stretch;
   flex-direction: row;
 
 }
 
-.our-story-container {
-  margin-top: 3rem;
-  min-height: 200px;
-  
-  width: 43%;
+.mission-container{
+  border: 2px solid #ec53cb;
+  display:flex;
+  flex-direction: column;
+  width: 50%;
+  margin-top: 35rem;
   padding: 1rem;
-  background-color: #ffffff;
-  border: 2px solid purple; /* Border for adjustments */
+  height: auto;
+  min-height: auto; /* Let it grow */
   flex-grow: 1;
+  overflow-y: visible;
+
+}
+
+.our-story-container {
+  border: 2px solid purple; /* Border for adjustments */
+  display: flex;
+  flex-direction: column;
+  width: 43%;
+  margin-top: 3rem;
+  padding: 1rem;
+  height: auto;
+  min-height: auto;
+  flex-grow: 1;
+  overflow-y: visible;
 }
 
 .footer {
@@ -177,14 +200,17 @@ body {
 }
 .subby {
   display: flex;
-  align-items: baseline; /* Aligns texts at the bottom */
-  justify-content: center; /* Centers content horizontally */
-  gap: 8px; /* Adjusts spacing between elements */
-  margin: 10px auto; /* Centers the whole div */
+  align-items: baseline;
+  justify-content: center;
+  gap: 8px;
+  margin: 10px auto;
   border: 2px solid rgb(79, 111, 178);
-  width: 440px;
-  height: 60px;
-  max-width: 100%; /* Prevents overflow on small screens */
+  width: auto;
+  max-width: 440px;
+  height: auto;
+  min-height: 60px;
+  padding: 10px;
+  flex-wrap: wrap;
 }
 
 .sub-title {
@@ -234,27 +260,6 @@ body {
 }
 
 
-
-.our-story-container{
-  height: 17rem;
-  width: 50%;
-}
-
-.mission-container{
-  border: 2px solid #ec53cb;
-  
-  width: 50%;
-  margin-top: 25rem;
-  padding: 1rem;
-  height: auto;
-  min-height: auto; /* Let it grow */
-  max-height: none; /* No artificial limits */
-  flex-grow: 1;
-  overflow-y: visible;
-
-
-}
-
 .mission{
   margin-top: 20px;
   font-size: 2.75rem;
@@ -273,6 +278,7 @@ body {
   font-weight: 400;
   word-wrap: break-word;
   display:flex;
+  flex-direction: column;
 
 }
 
@@ -293,6 +299,7 @@ body {
   width: 45%;
   border: 2px solid purple;
   height: 100%;
+  height:auto;
 
 }
 .right-container{
@@ -309,6 +316,12 @@ body {
   font-weight: bold;
   width: 100%;
 }
+
+.paragraph1{
+padding-bottom: 1rem;
+line-height: 1.3;
+}
+
 .paragraph{
   border: 2px solid rgb(27, 117, 72);
   height: 100px;
@@ -431,7 +444,7 @@ body {
   position: absolute; /* Positioned relative to the "Products" tab */
   top: 120%; /* Adjust this value to move the popup further down or up */
   left: 7%; /* Align with the left edge of the tab */
-  width: 85.39%;
+  width: 86%;
   right:7%;
 
    /* Adjust width */

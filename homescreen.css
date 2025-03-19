@@ -41,7 +41,7 @@ body {
 
 .copyright{
   font-size: .9rem;
-  font-family: "Geist", serif;
+  font-family: 'Geist',sans serif;
   font-weight: 500;
   color: #2c2c2c;
   
@@ -79,6 +79,7 @@ body {
   position: fixed; 
   top:0;
   width: 100%;
+  flex-direction: row;
 }
 
 .nav-links1 {

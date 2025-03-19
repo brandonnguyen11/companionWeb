@@ -4,14 +4,15 @@ body {
      padding: 0;
      height: 100vh;
      width: 100vw;
-     
+     overflow-x: hidden;
    }
 
    .logo{
     margin-right: 25px;
-    border: 2px solid blue;
-    height: 50px;
-    width: 150px;
+ border: 2px solid blue;
+ height: 50px;
+ width: 150px;
+ flex-shrink:0;
 
    }
    .offer-header{
@@ -34,13 +35,12 @@ body {
      margin-top: 7px;
    }
    .copyright{
-     font-size: 12px;
-     font-family: "Geist", serif;
-     font-weight: bold;
-     color: #333;
-     margin-left: 7%;
-     margin-right:7%;
-   }
+    font-size: .9rem;
+    font-family: 'Geist', sans serif;
+    font-weight: 500;
+    color: #2c2c2c;
+    
+  }
 
    .footer{
      text-align: left;
@@ -64,42 +64,27 @@ body {
    }
 
    .navbar {
-     display: flex;
-     height: 55px;
-     align-items: center;
-     background-color: #ffffff;
-     border: 2px solid red; /* Border for adjustments */
-     position: fixed; 
-     top:0;
-     width: 100%;
-       z-index: 1000;
-   }
-   
+    display: flex;
+    height: 55px;
+    align-items: center;
+    background-color: #ffffff;
+    border: 2px solid red; /* Border for adjustments */
+    position: fixed; 
+    top:0;
+    width: 100%;
+    flex-direction: row;
+    z-index: 1000;
+  }
 
-   .nav-links0 {
-    width: 10%;
+   .nav-links1 {
+    width: 150px;
     margin-left: 10px;
     height: 100%;
     border: 2px solid blue;
     align-content: center;
     justify-content: center;
     font-size: 110%;
-    font-family: "Geist", serif;
-    cursor: pointer;
-
-  }
-
-
-   .nav-links1 {
-     width: 150px;
-     margin-left: 10px;
-     height: 100%;
-     border: 2px solid blue;
-     align-content: center;
-     justify-content: center;
-     font-size: 110%;
-     font-family: "Geist", serif;
-     cursor: pointer;
+    font-family: 'Geist', serif;
 
    }
    
@@ -110,7 +95,7 @@ body {
    }
    .nav-links2 {
      font-size: 110%;
-     font-family: "Geist", serif;
+     font-family: 'Geist', serif;
      width: 200px;
      align-content: center;
      justify-content: center;
@@ -150,61 +135,59 @@ body {
     margin-left: 1%;
     border: 1px solid rgb(193, 189, 192);
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
-    font-family: "Geist", serif;
-    padding: 1rem !important;
+    font-family: 'Geist', sans serif;
+    padding: .2rem !important;
     border: 2px solid rgb(39, 142, 97);
     flex-grow: 1;
     position:relative;
-
+    height:auto;
     
   }
-  img {
-    width:240px;
-    border-radius: 100%;
-    
-  }
+  
   .name-plate{
     border: 2px solid pink;
     text-align: center;
     margin-bottom: 30px;
-    font-size: 30px;
+    font-size: 25px;
     color:#ec53cb;
-    font-family: "Geist", serif;
+    height:auto;
+    max-height: 70px;
+    font-family: 'Geist', sans serif;
 
   }
 
-  .photos{
+  .photos {
     border: 2px solid rgb(85, 220, 17);
-    height:240px;
+    height: auto;
+    max-height: 500px; /* Set the container height */
     margin-bottom: 20px;
-  
-    align-items: center;
-    justify-content: center;
-    display:flex;
     margin-top: 50px;
-    
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Make the container take up full width */
+    overflow: hidden; /* Ensure no overflow */
   }
+  
+  .photos img {
+    width: 65%; /* Make the image stretch to fit the container's width */
+     /* Make the image stretch to fit the container's height */
+    object-fit: cover; /* Ensure the aspect ratio is maintained */
+   
+    
+  }
+
   .photo{
     border: 2px solid rgb(228, 53, 9);
-    max-height: 1000px;
-    line-height: 27px;
+    line-height: 1.5;
     padding: 7px;
     margin-bottom: 100px;
     font-size: 16px;
-    font-family: "Geist", serif;
+    font-family: 'Geist',sans serif;
+    color: #484848;
+    height:auto;
 
 
-
-  }
-  .linkedin{
-    border: 2px solid rgb(204, 81, 213);
-    height: 50px;
-    justify-content: center;
-    align-items: center;
-    margin-top: auto;
-    margin-bottom: 20px;
-    display:flex;
 
   }
 
@@ -244,40 +227,52 @@ body {
    }
 
    .footer {
-     padding: 20px;
-     background-color: #ffffff;
-     border: 2px solid yellow; /* Border for adjustments */
-   }
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid yellow; /* Border for adjustments */
+    color: #2c2c2c;
+    text-align: right;
+    margin-top: 25%;
+    margin-left: 7%;
+    margin-right:7%;
+    
+  }
    .subby {
-     display: flex;
-     flex-direction: row;
-     border: 2px solid yellow;
-     margin-bottom: 38px;
-     font-size: 70 ;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 8px;
+    margin: 10px auto;
+    border: 2px solid rgb(79, 111, 178);
+    width: auto;
+    max-width: 440px;
+    height: auto;
+    min-height: 60px;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
    }
+
 
    .title{
      border: 2px solid yellow;
    }
 
    .sub-title{
-     border: 2px solid red;
-     width: 50%;
-     font-size: 300%;
-     text-align: right;
-     font-family: "Geist", serif;
-     margin-right: 20px
+     font-size: 45px; /* Adjust as needed */
+    font-weight: 500;
+    font-family: 'Geist', sans-serif;
+    line-height: 1;
+    white-space: nowrap;
    }
 
    .sub-title2{
-     border: 2px solid rgb(38, 38, 119);
-     width: 50%;
-     font-size: 300%;
-     text-align: left;
-     font-family: "Geist", serif;
-     margin-left: -10px;
-     font-weight: bold;
-     color: #ec53cb;
+    font-size: 40px; /* Match height to sub-title */
+    font-weight: 800;
+    font-family: 'Playwrite IT Trad', sans-serif; /* Keep your chosen font */
+    line-height: 1;
+    white-space: nowrap;
+    color: #ec53cb;
 
    }
 
@@ -333,7 +328,7 @@ body {
      margin-right:7%;
      font-size: 1.2rem;
      font-weight: bold;
-     font-family: Roboto, Arial, Helvetica, sans-serif;
+     font-family: 'Geiss', Arial, Helvetica, sans-serif;
      line-height: 25px;
      justify-content: center;
      align-items: center;
@@ -346,7 +341,7 @@ body {
      text-align: center;
      line-height: 25px;
      font-size: 17px;
-     font-family: Roboto, Arial, Helvetica, sans-serif;
+     font-family: 'Geiss', Arial, Helvetica, sans-serif;
      color: #666666;
      background-color: #ffffff;
      border: 2px solid green; /* Border for adjustments */
@@ -379,6 +374,15 @@ body {
      line-height: 1.5rem;
      margin-bottom: 10px;
    }
+
+   .paragraph1{
+    padding-bottom: 1rem;
+    line-height: 1.6;
+    font-family: 'Geist',sans-serif;
+    color: #484848;
+    }
+
+
    .try-it{
      width: 100px;
      font-family: "Geist", serif;

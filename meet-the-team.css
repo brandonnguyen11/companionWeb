@@ -112,11 +112,13 @@ body {
     margin-top: 100px;
     
     
+    
   }
 
 @media (min-width: 576px){
     .photo-container{
         display:flex;
+        
     }
 
     .column{
@@ -133,6 +135,7 @@ body {
     border-radius: 50px;
     margin-right: 1%;
     margin-left: 1%;
+    margin-bottom: 5%;
     border: 1px solid rgb(193, 189, 192);
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
     font-family: 'Geist', sans serif;
@@ -141,6 +144,7 @@ body {
     flex-grow: 1;
     position:relative;
     height:auto;
+    
     
   }
   
@@ -503,7 +507,7 @@ body {
   z-index: 999; /* Ensure it appears above other elements */
   padding: 10px;
   backdrop-filter: blur(4px);
-  transition: opacity 0.4s ease-in-out 0.1s, visibility 0.4s ease-in-out; /* Adjust speed and delay */
+  transition: opacity 0.1s ease-in-out 0s, visibility 0s ease-in-out; /* Adjust speed and delay */
    }
    
    /* Popup content styling */
@@ -543,13 +547,13 @@ body {
    }
 
    .product-container{
-     display:flex;
-     margin-left: 25px;
-     margin-top: 20px;
-     border: 2px solid rgb(143, 182, 75);
-     flex-direction: row;
-     width: 215px;
-     margin-bottom: 50px;
+    display:flex;
+    margin-left: 25px;
+    margin-top: 20px;
+    border: 2px solid rgb(143, 182, 75);
+    flex-direction: row;
+    width: 300px;
+    margin-bottom: 50px;
    }
    .production-header-description{
      display: flex;
@@ -566,18 +570,19 @@ body {
    }
 
    .product-header{
-     border: 2px solid rgb(39, 47, 121);
-     font-family: "Geist", serif;
-     font-weight:bold;
-     font-size: 19px;
+    border: 2px solid rgb(39, 47, 121);
+    font-family: 'Geist', sans-serif;
+    font-weight:bold;
+    font-size: 1.3rem;
 
    }
 
    .product-description{
-     border: 2px solid rgb(60, 211, 65);
-     font-family: 'Inter', serif;
-     margin-top: 5px;
-     font-size: 16px;
+    border: 2px solid rgb(60, 211, 65);
+    font-family: 'Geist', san-serif;
+    margin-top: 5px;
+    font-size: 1.2rem;
+    font-weight: 400;
    }
 
 

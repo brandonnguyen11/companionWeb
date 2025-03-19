@@ -232,10 +232,15 @@ body {
    
    
    .our-story-container {
-     margin-top: 50px;
-     padding: 20px;
-     background-color: #ffffff;
-     border: 2px solid purple; /* Border for adjustments */
+    margin-top:2%;
+    display: flex;
+    text-align: center;
+    line-height: 25px;
+    font-size: 17px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    color: #666666;
+    background-color: #ffffff;
+    border: 2px solid green; /* Border for adjustments */
    }
 
    .footer {
@@ -478,22 +483,23 @@ body {
    /* Popup box initially hidden */
 /* Popup box styling */
 .popup-box {
-     opacity: 0; /* Initially hidden */
-     visibility: hidden; /* Prevent interaction when hidden */
-     position: absolute; /* Positioned relative to the "Products" tab */
-     top: 120%; /* Adjust this value to move the popup further down or up */
-     left: 7%; /* Align with the left edge of the tab */
-     width: 400px;
+  opacity: 0; /* Initially hidden */
+  visibility: hidden; /* Prevent interaction when hidden */
+  position: absolute; /* Positioned relative to the "Products" tab */
+  top: 120%; /* Adjust this value to move the popup further down or up */
+  left: 7%; /* Align with the left edge of the tab */
+  width: 85.39%;
+  right:7%;
 
-      /* Adjust width */
-     background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
-     border: 1px solid #ccc; /* Optional border */
-     border-radius: 8px;
-     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow */
-     z-index: 999; /* Ensure it appears above other elements */
-     padding: 10px;
-     backdrop-filter: blur(4px);
-     transition: opacity 0.4s ease-in-out 0.1s, visibility 0.4s ease-in-out; /* Adjust speed and delay */
+   /* Adjust width */
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+  border: 1px solid #ccc; /* Optional border */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow */
+  z-index: 999; /* Ensure it appears above other elements */
+  padding: 10px;
+  backdrop-filter: blur(4px);
+  transition: opacity 0.4s ease-in-out 0.1s, visibility 0.4s ease-in-out; /* Adjust speed and delay */
    }
    
    /* Popup content styling */
@@ -565,7 +571,7 @@ body {
 
    .product-description{
      border: 2px solid rgb(60, 211, 65);
-     font-family: "Geist", serif;
+     font-family: 'Inter', serif;
      margin-top: 5px;
      font-size: 16px;
    }

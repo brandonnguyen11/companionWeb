@@ -23,6 +23,16 @@ flex-shrink:0;
   margin-top: 15px;
 }
 
+.product-header:hover{
+  transition: color 0.3s ease;
+  color: #ec53cb;
+  cursor:pointer;
+}
+
+.logo-container:hover{
+  cursor:pointer;
+}
+
 .offers{
   font-size: 12px;
   font-family: "Geist", serif;
@@ -491,23 +501,28 @@ flex-shrink:0;
 /* Popup box initially hidden */
 /* Popup box styling */
 .popup-box {
-opacity: 0; /* Initially hidden */
-visibility: hidden; /* Prevent interaction when hidden */
-position: absolute; /* Positioned relative to the "Products" tab */
-top: 120%; /* Adjust this value to move the popup further down or up */
-left: 7%; /* Align with the left edge of the tab */
-width: 85.39%;
-right:7%;
+  opacity: 0; /* Initially hidden */
+  position: absolute;
+  top: 120%;
+  left: 7%;
+  width: 85.39%;
+  right: 7%;
+  
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  padding: 10px;
+  backdrop-filter: blur(4px);
+  
+  transition: opacity 0.3s ease-in-out; /* Smooth fade */
+  pointer-events: none; /* Prevent interaction when hidden */
+}
 
-/* Adjust width */
-background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
-border: 1px solid #ccc; /* Optional border */
-border-radius: 8px;
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow */
-z-index: 999; /* Ensure it appears above other elements */
-padding: 10px;
-backdrop-filter: blur(4px);
-transition: opacity 0.1s ease-in-out 0s, visibility 0s ease-in-out; /* Adjust speed and delay */
+.parent:hover .popup-box {
+  opacity: 1;
+  pointer-events: auto; /* Allow interaction when visible */
 }
 
 /* Popup content styling */

@@ -1,3 +1,48 @@
+let slideIndex=1;
+
+
+// Initialize slideshow when DOM loads
+document.addEventListener("DOMContentLoaded", () => {
+  showSlides(slideIndex);
+
+  // Auto-advance every 5 seconds
+  setInterval(() => {
+    plusSlides(1);
+  }, 5000);
+});
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  const slides = document.getElementsByClassName("mySlides");
+  const dots = document.getElementsByClassName("dot");
+
+  if (n > slides.length) slideIndex = 1;
+  if (n < 1) slideIndex = slides.length;
+
+  // Hide all slides
+  Array.from(slides).forEach(slide => {
+    slide.style.display = "none";
+  });
+
+  // Update dots
+  Array.from(dots).forEach(dot => {
+    dot.classList.remove("active");
+  });
+
+  // Show current slide (with null safety)
+  if (slides[slideIndex-1]) {
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].classList.add("active");
+  }
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   const productsButton = document.getElementById("products");
   const popupBox = document.getElementById("popupBox");
@@ -41,20 +86,5 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 200);
   });
 
-  // Slideshow logic
-  let slideIndex = 0;
 
-  function showSlides() {
-    const slides = document.querySelectorAll(".fade");
-    slideIndex = 0; // Reset slide index when the slideshow starts
-
-    for (let i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-    }
-
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}    
-    slides[slideIndex - 1].style.display = "block";  
-    setTimeout(showSlides, 2000); // Change image every 2 seconds
-  }
 });

@@ -8,13 +8,13 @@ body {
 }
 
 .logo{
- margin-right: 25px;
-border: 2px solid blue;
-height: 50px;
-width: 150px;
-flex-shrink:0;
+  margin-right: 25px;
+  border: 1px solid blue;
+  height: 50px;
+  width: 175px;
+  
+ }
 
-}
 .offer-header{
   font-size: 15px;
   font-family: "Geist", serif;
@@ -45,11 +45,11 @@ flex-shrink:0;
   margin-top: 7px;
 }
 .copyright{
- font-size: .9rem;
- font-family: 'Geist', sans serif;
- font-weight: 500;
- color: #2c2c2c;
- 
+  font-size: .8rem;
+  font-family: "Inter",sans serif;
+  font-weight: 500;
+  color: #333333;
+  margin-bottom: 2rem;
 }
 
 .footer{
@@ -87,14 +87,15 @@ flex-shrink:0;
 }
 
 .nav-links1 {
- width: 150px;
- margin-left: 10px;
- height: 100%;
- border: 2px solid blue;
- align-content: center;
- justify-content: center;
- font-size: 110%;
- font-family: 'Geist', serif;
+  width: 150px;
+  margin-left: 10px;
+  height: 100%;
+  border: 2px solid blue;
+  align-content: center;
+  justify-content: center;
+  font-size: 110%;
+  font-family: "Inter", serif;
+  font-weight: 500;
 
 }
 
@@ -103,15 +104,20 @@ flex-shrink:0;
   color: #ec53cb;
   cursor:pointer;
 }
+
 .nav-links2 {
   font-size: 110%;
-  font-family: 'Geist', serif;
+  font-family: "Inter", serif;
+  font-weight: 500;
   width: 200px;
   align-content: center;
-  justify-content: center;
+  justify-content: left;
   margin-left: 10px;
   height: 100%;
   border: 2px solid pink;
+  display: flex;
+  align-items: center;
+  
 }
 
 .photo-container{
@@ -166,7 +172,8 @@ flex-shrink:0;
  color:#ec53cb;
  height:auto;
  max-height: 70px;
- font-family: 'Geist', sans serif;
+ font-family: "Inter", sans serif;
+ font-weight: 500;
 
 }
 
@@ -197,9 +204,10 @@ flex-shrink:0;
  padding: 7px;
  margin-bottom: 100px;
  font-size: 16px;
- font-family: 'Geist',sans serif;
- color: #484848;
+ font-family: "Inter",sans serif;
+ color: #737373;
  height:auto;
+ font-weight: 500;
 
 
 
@@ -241,15 +249,19 @@ flex-shrink:0;
 }
 
 .footer {
- padding: 20px;
- background-color: #ffffff;
- border: 2px solid yellow; /* Border for adjustments */
- color: #2c2c2c;
- text-align: right;
- margin-top: 25%;
- margin-left: 7%;
- margin-right:7%;
- 
+  padding: 20px;
+  border: 2px solid yellow; /* Border for adjustments */
+  margin-top: 25%;
+  margin-left: 7%;
+  margin-right:7%;
+  margin-top: 5rem;
+    padding: 10px;
+    text-align: center;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    font-size: .7rem;
+    color: #333;
+  
 }
 .subby {
  display: flex;
@@ -274,8 +286,8 @@ flex-shrink:0;
 
 .sub-title{
   font-size: 45px; /* Adjust as needed */
- font-weight: 500;
- font-family: 'Geist', sans-serif;
+ font-weight: 600;
+ font-family: "Inter", sans-serif;
  line-height: 1;
  white-space: nowrap;
 }
@@ -336,13 +348,13 @@ flex-shrink:0;
 .blurb{
   display: flex;
   margin-top: 3%;
-  color: #333;
+  color: #000;
   border: 2px solid purple;
   margin-left: 7%;
   margin-right:7%;
   font-size: 1.2rem;
-  font-weight: bold;
-  font-family: 'Geiss', Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
   line-height: 25px;
   justify-content: center;
   align-items: center;
@@ -392,8 +404,9 @@ flex-shrink:0;
 .paragraph1{
  padding-bottom: 1rem;
  line-height: 1.6;
- font-family: 'Geist',sans-serif;
- color: #484848;
+ font-weight: 500;
+ font-family: "Inter",sans-serif;
+ color: #737373;
  }
 
 
@@ -552,12 +565,13 @@ flex-shrink:0;
 .product{
   margin-top: 40px;
   margin-left: 25px;
-  font-size: 17px;
-  font-family: "Geist", serif;
-  color: #101214;
+  font-size: 1.1rem;
+  font-family: "Inter",sans serif;
+  font-weight: 600;
+  color: #000000;
   margin-bottom: 24px;
   border: 2px solid rgb(159, 69, 41);
-  width: 115px;
+  width: 120px;
 
 }
 
@@ -585,19 +599,20 @@ flex-shrink:0;
 }
 
 .product-header{
- border: 2px solid rgb(39, 47, 121);
- font-family: 'Geist', sans-serif;
- font-weight:bold;
- font-size: 1.3rem;
+  border: 2px solid rgb(39, 47, 121);
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 1.3rem;
 
 }
 
 .product-description{
- border: 2px solid rgb(60, 211, 65);
- font-family: 'Geist', san-serif;
- margin-top: 5px;
- font-size: 1.2rem;
- font-weight: 400;
+  border: 2px solid rgb(60, 211, 65);
+  font-family: "Inter", san-serif;
+  margin-top: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #737373;
 }
 
 

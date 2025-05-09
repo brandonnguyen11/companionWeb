@@ -9,7 +9,7 @@ body {
 
 .logo{
   margin-right: 25px;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   height: 50px;
   width: 175px;
   
@@ -78,7 +78,7 @@ body {
  height: 55px;
  align-items: center;
  background-color: #ffffff;
- border: 2px solid red; /* Border for adjustments */
+ /* border: 2px solid red; Border for adjustments */
  position: fixed; 
  top:0;
  width: 100%;
@@ -90,7 +90,7 @@ body {
   width: 150px;
   margin-left: 10px;
   height: 100%;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   align-content: center;
   justify-content: center;
   font-size: 110%;
@@ -114,7 +114,7 @@ body {
   justify-content: left;
   margin-left: 10px;
   height: 100%;
-  border: 2px solid pink;
+  /* border: 2px solid pink; */
   display: flex;
   align-items: center;
   
@@ -152,11 +152,10 @@ body {
  margin-right: 1%;
  margin-left: 1%;
  margin-bottom: 5%;
- border: 1px solid rgb(193, 189, 192);
+ /* border: 1px solid rgb(193, 189, 192); */
  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
- font-family: 'Geist', sans serif;
  padding: .2rem !important;
- border: 2px solid rgb(39, 142, 97);
+ /* border: 2px solid rgb(39, 142, 97); */
  flex-grow: 1;
  position:relative;
  height:auto;
@@ -165,7 +164,7 @@ body {
 }
 
 .name-plate{
- border: 2px solid pink;
+ /* border: 2px solid pink; */
  text-align: center;
  margin-bottom: 30px;
  font-size: 25px;
@@ -178,7 +177,7 @@ body {
 }
 
 .photos {
- border: 2px solid rgb(85, 220, 17);
+ /* border: 2px solid rgb(85, 220, 17); */
  height: auto;
  max-height: 500px; /* Set the container height */
  margin-bottom: 20px;
@@ -199,7 +198,7 @@ body {
 }
 
 .photo{
- border: 2px solid rgb(228, 53, 9);
+ /* border: 2px solid rgb(228, 53, 9); */
  line-height: 1.5;
  padding: 7px;
  margin-bottom: 100px;
@@ -221,7 +220,7 @@ body {
   margin-left: 7%;
   margin-right:7%;
   margin-top: 100px;
-  border: 2px solid blue; /* Border for adjustments */
+  /* border: 2px solid blue; Border for adjustments */
 }
 
 .hero-section button {
@@ -250,7 +249,7 @@ body {
 
 .footer {
   padding: 20px;
-  border: 2px solid yellow; /* Border for adjustments */
+  /* border: 2px solid yellow; Border for adjustments */
   margin-top: 25%;
   margin-left: 7%;
   margin-right:7%;
@@ -269,7 +268,7 @@ body {
  justify-content: center;
  gap: 8px;
  margin: 10px auto;
- border: 2px solid rgb(79, 111, 178);
+ /* border: 2px solid rgb(79, 111, 178); */
  width: auto;
  max-width: 440px;
  height: auto;
@@ -331,7 +330,17 @@ body {
   height: 40%;
   margin-left: 7%;
   margin-right:7%;
+  margin-top:2%;
+  display: flex;
+  text-align: center;
+  line-height: 25px;
+  font-size: 17px;
+  font-family: "Inter", sans-serif;
+  color: #666666;
+  background-color: #ffffff;
+  /* border: 2px solid green; Border for adjustments */
 }
+
 
 .our-story-container{
   height: 40%;
@@ -339,7 +348,7 @@ body {
   margin-right:7%;
 }
 .content-container1{
- border: 2px solid rgb(216, 31, 216);
+ /* border: 2px solid rgb(216, 31, 216); */
  
  margin-left: 7%;
  margin-right: 7%
@@ -349,7 +358,7 @@ body {
   display: flex;
   margin-top: 3%;
   color: #000;
-  border: 2px solid purple;
+  /* border: 2px solid purple; */
   margin-left: 7%;
   margin-right:7%;
   font-size: 1.2rem;
@@ -361,17 +370,7 @@ body {
   text-align: center;
 }
 
-.companion-container {
-  margin-top:2%;
-  display: flex;
-  text-align: center;
-  line-height: 25px;
-  font-size: 17px;
-  font-family: 'Geiss', Arial, Helvetica, sans-serif;
-  color: #666666;
-  background-color: #ffffff;
-  border: 2px solid green; /* Border for adjustments */
-}
+
 
 .left-companion-container{
   width: 45%;
@@ -389,16 +388,6 @@ body {
   font-family: "Geist", serif;
   font-weight: bold;
   width: 100%;
-}
-.paragraph{
-  border: 2px solid rgb(27, 117, 72);
-  height: 100px;
-  font-size: 19.5px;
-  font-family: "Geist", serif;
-  width: 330px;
-  color: #333;
-  line-height: 1.5rem;
-  margin-bottom: 10px;
 }
 
 .paragraph1{
@@ -570,7 +559,7 @@ body {
   font-weight: 600;
   color: #000000;
   margin-bottom: 24px;
-  border: 2px solid rgb(159, 69, 41);
+  /* border: 2px solid rgb(159, 69, 41); */
   width: 120px;
 
 }
@@ -579,7 +568,7 @@ body {
  display:flex;
  margin-left: 25px;
  margin-top: 20px;
- border: 2px solid rgb(143, 182, 75);
+ /* border: 2px solid rgb(143, 182, 75); */
  flex-direction: row;
  width: 300px;
  margin-bottom: 50px;
@@ -593,13 +582,13 @@ body {
 }
 
 .logo-container{
-  border: 2px solid rgb(121, 28, 71);
+  /* border: 2px solid rgb(121, 28, 71); */
   width: 50px;
   height: 50px;
 }
 
 .product-header{
-  border: 2px solid rgb(39, 47, 121);
+  /* border: 2px solid rgb(39, 47, 121); */
   font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 1.3rem;
@@ -607,7 +596,7 @@ body {
 }
 
 .product-description{
-  border: 2px solid rgb(60, 211, 65);
+  /* border: 2px solid rgb(60, 211, 65); */
   font-family: "Inter", san-serif;
   margin-top: 5px;
   font-size: 1rem;

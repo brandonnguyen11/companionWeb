@@ -9,7 +9,7 @@ body {
   
   .logo{
     margin-right: 25px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     height: 50px;
     width: 175px;
     
@@ -43,7 +43,7 @@ body {
   
   .footer {
     padding: 20px;
-    border: 2px solid yellow; /* Border for adjustments */
+    /* border: 2px solid yellow; Border for adjustments */
     margin-top: 25%;
     margin-left: 7%;
     margin-right:7%;
@@ -75,7 +75,7 @@ body {
    height: 55px;
    align-items: center;
    background-color: #ffffff;
-   border: 2px solid red; /* Border for adjustments */
+   /* border: 2px solid red; Border for adjustments */
    position: fixed; 
    top:0;
    width: 100%;
@@ -87,7 +87,7 @@ body {
     width: 150px;
     margin-left: 10px;
     height: 100%;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     align-content: center;
     justify-content: center;
     font-size: 110%;
@@ -120,7 +120,7 @@ body {
     justify-content: left;
     margin-left: 10px;
     height: 100%;
-    border: 2px solid pink;
+    /* border: 2px solid pink; */
     display: flex;
     align-items: center;
     
@@ -255,7 +255,7 @@ body {
   .footer {
    padding: 20px;
    background-color: #ffffff;
-   border: 2px solid yellow; /* Border for adjustments */
+   /* border: 2px solid yellow; Border for adjustments */
    color: #2c2c2c;
    text-align: right;
    margin-top: 25%;
@@ -347,7 +347,7 @@ body {
     margin-right:7%;
   }
   .content-container1{
-   border: 2px solid rgb(216, 31, 216);
+   /* border: 2px solid rgb(216, 31, 216); */
    margin-top: 10rem;
    margin-left: 7%;
    margin-right: 7%
@@ -358,7 +358,7 @@ body {
     display: flex;
     margin-top: 3%;
     color: #000;
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
     margin-left: 7%;
     margin-right:7%;
     font-size: 2.25rem;
@@ -379,7 +379,7 @@ body {
     font-size: 17px;
     font-family: 'Geiss', Arial, Helvetica, sans-serif;
     color: #484848;
-    border: 2px solid green; /* Border for adjustments */
+    /* border: 2px solid green; Border for adjustments */
   }
   
   .slideshow-container {
@@ -611,7 +611,7 @@ body {
     color: #333;
     text-decoration: none;
     font-size: 16px;
-    border-bottom: 1px solid #eaeaea; /* Optional divider between items */
+    /* border-bottom: 1px solid #eaeaea; Optional divider between items */
   }
   
   .popup-content a:hover {
@@ -636,7 +636,7 @@ body {
     font-weight: 600;
     color: #000000;
     margin-bottom: 24px;
-    border: 2px solid rgb(159, 69, 41);
+    /* border: 2px solid rgb(159, 69, 41); */
     width: 120px;
   
   }
@@ -645,7 +645,7 @@ body {
    display:flex;
    margin-left: 25px;
    margin-top: 20px;
-   border: 2px solid rgb(143, 182, 75);
+   /* border: 2px solid rgb(143, 182, 75); */
    flex-direction: row;
    width: 300px;
    margin-bottom: 50px;
@@ -659,13 +659,13 @@ body {
   }
   
   .logo-container{
-    border: 2px solid rgb(121, 28, 71);
+    /* border: 2px solid rgb(121, 28, 71); */
     width: 50px;
     height: 50px;
   }
   
   .product-header{
-    border: 2px solid rgb(39, 47, 121);
+    /* border: 2px solid rgb(39, 47, 121); */
     font-family: "Inter", sans-serif;
     font-weight: 600;
     font-size: 1.3rem;
@@ -673,7 +673,7 @@ body {
   }
   
   .product-description{
-    border: 2px solid rgb(60, 211, 65);
+    /* border: 2px solid rgb(60, 211, 65); */
     font-family: "Inter", san-serif;
     margin-top: 5px;
     font-size: 1rem;
